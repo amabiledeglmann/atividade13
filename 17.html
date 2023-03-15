@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=], initial-scale=1.0">
-    <title>6</title>
+    <title>17</title>
 
     <style>
         body {
@@ -27,59 +27,63 @@
             justify-items: center;
             align-items: center;
             align-content: center;
-            flex-direction: column;
+            flex-direction: row;
         }
 
         .D2 {
-            width: 70%;
-            height: 220px;
+            width: 50%;
+            height: 700px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             justify-content: space-between;
         }
 
         .D3 {
-            background-color:gold;
-            width: 25%;
-            height: 220px
-        }
-
-        .D4 {
-            background-color: gold;
-            width: 25%;
-            height: 220px
-        }
-
-        .D5 {
-            background-color:gold;
-            width: 25%;
-            height: 220px
-        }
-
-        .D6 {
-            background-color: gold;
-            width: 70%;
-            height: 220px
-        }
-
-        .D7 {
-            width: 70%;
-            height: 220px;
+            width: 100%;
+            height: 470px;
             display: flex;
             flex-direction: row;
             justify-content: space-between;
         }
 
+        .D4 {
+            width: 35%;
+            height: 470px;
+            background-color: gold;
+        }
+
+        .D5 {
+            width: 35%;
+            height: 470px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .D6 {
+            width: 100%;
+            height: 200px;
+            background-color: gold;
+        }
+
+        .D7 {
+            width: 100%;
+            height: 200px;
+            background-color: gold;
+        }
+
         .D8 {
-            background-color:gold;
-            width: 63%;
-            height: 220px;
+            width: 15%;
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between
         }
 
         .D9 {
-            width: 25%;
-            height: 220px;
             background-color: gold;
+            width: 100%;
+            height: 470px;
         }
     </style>
 
@@ -88,13 +92,17 @@
 <body>
     <div class="D1">
         <div class="D2">
-            <div class="D3"></div>
-            <div class="D4"></div>
-            <div class="D5"></div>
+            <div class="D3">
+                <div class="D4"></div>
+                <div class="D5">
+                    <div class="D6"></div>
+                    <div class="D6"></div>
+                </div>
+            </div>
+            <div class="D7"></div>
         </div>
-        <div class="D6"></div>
-        <div class="D7">
-            <div class="D8"></div>
+        <div class="D8">
+            <div class="D6"></div>
             <div class="D9"></div>
         </div>
     </div>
